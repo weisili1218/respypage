@@ -1,0 +1,160 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*全域的宣告  */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--Stone100);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+}
+
+main {
+    width: 90%;
+    max-width: 1240px;
+    margin: 5em auto;
+    padding: 2em;
+    background-color:var(--White);
+    border-radius: 30px;
+}
+
+.title{
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: "Josefin Sans", serif ;
+    color: var(--Stone600);
+
+}
+
+.descrip {
+    font-size: 1.2em;
+    margin: 2em 0;
+    color: var(--Stone600);
+}
+
+.time {
+    background-color: var(--Rose50);
+    padding: 1.5em;
+    border-radius: 20px;
+
+}
+
+.title2 {
+    color: var(--Rose800);
+}
+
+li {
+    color: var(--Stone600);
+    padding-left: 1.5em;
+}
+
+li::marker {
+    color: var(--Brown800);
+    font-weight: bold;
+}
+
+/* 兩個li之間加padding */
+li + li {
+    margin-top: 1em;
+}
+
+.bold {
+    font-weight: bold;
+    color: var(--Stone900);
+}
+
+hr {
+    margin: 4em 0;
+    border-color: var(--Stone150);
+}
+
+
+.title3 {
+    font-size: 1.5em ;
+    font-family: "Josefin Sans", serif ;
+    color: var(--Brown800);
+}
+
+.title4{
+    font-size: 1.5em ;
+    font-family: "Josefin Sans", serif ;
+    color: var(--Brown800);
+}
+
+.omama {
+    font-weight: bold;
+    color: var(--Stone900);
+}
+
+.title5 {
+    font-size: 1.5em ;
+    font-family: "Josefin Sans", serif ;
+    color: var(--Brown800);
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+   
+}
+.three {
+    display: flex;
+    flex-direction: row;
+   
+}
+.four {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.Nutrition p {
+    font-size: 1em;
+    color: var(--Stone600);
+}
+
+.Nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Nutrition table td {
+    padding: 1em 2em;
+    border-bottom: 1px solid var(--Stone150);    
+}
+
+.Nutrition table td:first-child {
+    color: var(--Stone600);
+}
+
+.Nutrition table td:last-child {
+    color: var(--Brown800);
+    font-weight: bold;
+}
+
+.Nutrition table td:last-child td {
+    border-bottom: none;
+}
